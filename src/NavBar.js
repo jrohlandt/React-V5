@@ -27,10 +27,10 @@ const NavBar = () => (
       css={css`
         color: white;
         display: inline-block;
-        animation: 1s ${spin} linear infinite;
+        /* animation: 1s ${spin} linear infinite; */
 
         &:hover {
-          animation: 1s ${spin} linear infinite reverse;
+          /* animation: 1s ${spin} linear infinite reverse; */
         }
       `}
     >
