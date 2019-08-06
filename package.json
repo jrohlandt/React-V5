@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/jrohlandt/React-V5#readme",
   "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
     "babel-eslint": "^10.0.2",
     "eslint": "^6.1.0",
     "eslint-config-prettier": "^6.0.0",
@@ -32,6 +34,8 @@
     "prettier": "^1.18.2"
   },
   "dependencies": {
+    "@emotion/babel-preset-css-prop": "^10.0.14",
+    "@emotion/core": "^10.0.15",
     "@frontendmasters/pet": "^1.0.3",
     "@reach/router": "^1.2.1",
     "react": "^16.8.6",
