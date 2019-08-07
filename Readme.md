@@ -16,3 +16,18 @@ https://github.com/Microsoft/vscode-eslint
 
 To get css code completion with emotion css prop, use:
 https://github.com/styled-components/vscode-styled-components
+
+Typescript:
+
+1. npm install -D typescript
+2. npx tsc --init
+
+then open tsconfig.json
+
+3. target = es2018 (or what you need)
+4. change jsx 'preserve' to 'react'
+5. set strict mode accordingly
+6. npm install -D @types/react @types/react-dom @types/reach\_\_router
+
+7. npm install -D tslint tslint-react tslint-config-prettier
+8. in package.json change script "lint" to run "tslint --project"
